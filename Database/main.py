@@ -48,6 +48,7 @@ class MongoDB:
         self.client = pymongo.MongoClient(url)
         self.database = self.client[database_name]
         self.musics = self.database['musics']
+        self.need_recreate_index = True
 
     def insert_one_music(self, name, tags, ssid, extra_info=None):
         """
@@ -65,9 +66,13 @@ class MongoDB:
         data_dict['ssid'] = ssid
         data_dict['extra_info'] = extra_info
         rslt = self.musics.insert_one(data_dict)
+        self.need_recreate_index = True
+        return rslt.inserted_id
+
+    def create_index(self):
         # 建立索引
         self.musics.create_index([('tags', 1)])
-        return rslt.inserted_id
+        self.need_recreate_index = False
 
     def empty_musics(self):
         """
@@ -82,6 +87,8 @@ class MongoDB:
         :param tags: list[string,]
         :return: [name, tags, ssid, extra_info]
         """
+        if self.need_recreate_index:
+            self.create_index()
         rslt_musics = self.musics.find({"tags": i for i in tags})
         return_list = []
         for i in rslt_musics:
@@ -102,5 +109,5 @@ if __name__ == '__main__':
     db.insert_one_music('RAPSTAR', ['说唱'], '1469628663')
     db.insert_one_music('蜗牛与黄鹂鸟', ['儿歌', '宝宝'], '566436178')
     db.insert_one_music('风的小径', ['轻音乐', '舒缓'], '1455273374')
-    x = db.find_music_with_tags(['说唱'])
+    x = db.find_music_with_tags(['欢快'])
     print(x)

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca51734-455e-49cb-8d66-6105279de6be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Get_lists_names/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Sppi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sppi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Database/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Kamino666 &lt;516015417@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1frJtwYHIpKr0SzIV7BOpKLR0Zc" />
@@ -40,7 +41,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="list_names.py" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -91,9 +92,6 @@
       <module name="Sppi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Database" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -204,11 +202,24 @@
       <option name="presentableId" value="Default" />
       <updated>1596970496956</updated>
       <workItem from="1597105796100" duration="10420000" />
+      <workItem from="1597146979660" duration="387000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: 增加数据库模块">
+      <created>1597126010025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597126010025</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 增加数据库模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 增加数据库模块" />
   </component>
   <component name="WindowStateProjectService">
     <state x="279" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597110314731">
@@ -240,35 +251,55 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="37" key="#test_jieba.py/0.0.1536.824@0.0.1536.824" timestamp="1596986046461" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1597110322021">
+    <state x="558" y="84" key="CommitChangelistDialog2" timestamp="1597126009263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="84" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597126009263" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1597138059245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="324" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596986093458" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597110322021" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1597110322021">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597138059245" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1597138059245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="324" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596986093458" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597110322021" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1597110322021">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597138059245" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1597138059245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="324" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596986093458" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597110322021" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1597110322021">
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597138059245" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1597138059245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="324" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596986093458" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597110322021" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597138059245" />
     <state x="355" y="138" key="SettingsEditor" timestamp="1597106692711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="284" y="109" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596975944509" />
     <state x="355" y="138" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597106692711" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597126025793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597126025793" />
     <state width="488" height="528" key="XDebugger.FullValuePopup" timestamp="1597113073247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="488" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1597113073247" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597125850299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597125850299" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597125871268">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597125871268" />
+    <state x="640" y="307" key="git4idea.merge.GitPullDialog" timestamp="1597125914475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597125914475" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Music_tag_matching$main.coverage" NAME="main Coverage Results" MODIFIED="1597106984156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database" />
