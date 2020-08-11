@@ -27,13 +27,19 @@ for i in range(len(data1)):
         if res.get("playlist")["trackIds"] != None:
             num_tags = len(res.get("playlist")["trackIds"])
             for i in range(num_tags):
-                music = {'name': res.get("playlist")["trackIds"][i].get("id"), 'tags': res.get("playlist")["tags"]}
+                # 生成JSON格式
+                music = {'id': str(res.get("playlist")["trackIds"][i].get("id")), 'tags': res.get("playlist")["tags"]}
+                music = json.dumps(music,indent=4)
+                with open("anss.json",'a') as f_js:
+                    f_js.write(music + ',')
                 person.append(music)
                 # print(res.get("playlist")["trackIds"][i].get("id"))
                 # print(res.get("playlist")["tags"])
     # print(json_str)
     print(id)
+    print(type(person))
 json_str=json.dumps(person)
-with open("ans4.txt",'w+') as k:
+with open("ans5.txt",'w+') as k:
     k.write(json_str)
+f_js.close()
 f.close()
