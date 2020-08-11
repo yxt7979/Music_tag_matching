@@ -1,7 +1,6 @@
 import pymongo
 import json
 
-
 # # 获得数据库对象
 # myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 # # 创建/选择数据库
