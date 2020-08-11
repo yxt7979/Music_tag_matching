@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dca51734-455e-49cb-8d66-6105279de6be" name="Default Changelist" comment="" />
+    <list default="true" id="dca51734-455e-49cb-8d66-6105279de6be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Get_lists_names/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Sppi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sppi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,17 +21,28 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1frJtwYHIpKr0SzIV7BOpKLR0Zc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.test_jieba.py">
+  <component name="RunManager" selected="Python.main">
     <configuration name="list_names.py" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sppi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -37,6 +55,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_names.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -58,9 +77,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_tag.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sppi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Database/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -79,9 +118,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/music_list_tag2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sppi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Get_lists_names" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Get_lists_names/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -100,6 +159,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_jieba.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -110,13 +170,17 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.list_tag.py" />
       <item itemvalue="Python.music_list_tag2.py" />
       <item itemvalue="Python.test_jieba.py" />
-      <item itemvalue="Python.list_tag.py" />
       <item itemvalue="Python.list_names.py" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.test_jieba.py" />
         <item itemvalue="Python.list_names.py" />
         <item itemvalue="Python.music_list_tag2.py" />
@@ -133,14 +197,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596970496956</updated>
+      <workItem from="1597105796100" duration="10420000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596973422958">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="279" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597110314731">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596973422958" />
+    <state x="279" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597110314731" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596974232946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -165,25 +234,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="37" key="#test_jieba.py/0.0.1536.824@0.0.1536.824" timestamp="1596986046461" />
-    <state width="1515" height="324" key="GridCell.Tab.0.bottom" timestamp="1596986093458">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1597110322021">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="324" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596986093458" />
-    <state width="1515" height="324" key="GridCell.Tab.0.center" timestamp="1596986093458">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597110322021" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1597110322021">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="324" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596986093458" />
-    <state width="1515" height="324" key="GridCell.Tab.0.left" timestamp="1596986093458">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597110322021" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1597110322021">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="324" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596986093458" />
-    <state width="1515" height="324" key="GridCell.Tab.0.right" timestamp="1596986093458">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597110322021" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1597110322021">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="324" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596986093458" />
-    <state x="284" y="109" key="SettingsEditor" timestamp="1596975944509">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597110322021" />
+    <state x="355" y="138" key="SettingsEditor" timestamp="1597106692711">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="284" y="109" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596975944509" />
+    <state x="355" y="138" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597106692711" />
+    <state width="488" height="528" key="XDebugger.FullValuePopup" timestamp="1597113073247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="488" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1597113073247" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Music_tag_matching$main.coverage" NAME="main Coverage Results" MODIFIED="1597106984156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database" />
+    <SUITE FILE_PATH="coverage/Music_tag_matching$test.coverage" NAME="test Coverage Results" MODIFIED="1597110303923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Get_lists_names" />
   </component>
 </project>
